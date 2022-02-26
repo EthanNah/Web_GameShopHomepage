@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Drew GameShop</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--head--> 
+    <link rel="stylesheet" href="https://static.pingendo.com/bootstrap/bootstrap-4.3.1.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&amp;display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/templatemo.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+    <!-- Load fonts style after rendering the layout styles -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&amp;display=swap">
+    <!--새로운 폰트와 아이콘 연결 Connet with New Fonts & Icons-->
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+  </head>
+
+<body>
+  
+  <br>
+  <!-- 2Head Navigation Start -->
+  <nav class="navbar navbar-expand-lg fixed-top shadow navbar-dark bg-white">
+    <a class="navbar-brand text-dark logo h1 align-self-center" href="index.html"> Drew G.Shop </a>
+   <!-- Menu Bar-->
+   <div class="align-self-center navbar-collapse flex-fill d-lg-flex justify-content-lg-between collapse show" id="templatemo_main_nav" style="">
+    <div class="flex-fill">
+      <ul class="nav navbar-nav d-flex justify-content-between mx-lg-auto">
+        <!--Games-->
+        <li class="nav-item">
+          <a class="nav-link" href="games.html">Games</a>
+        </li>
+        <!--Consoles-->
+        <li class="nav-item">
+          <a class="nav-link" href="console.html">Consoles</a>
+        </li>
+        <!--Accessories-->
+        <li class="nav-item">
+          <a class="nav-link" href="accessories.html">Accessories</a>
+        </li>
+        <!--Pre-Owned-->
+        <li class="nav-item">
+          <a class="nav-link" href="preowned.html">Pre-Owned</a>
+        </li>
+      </ul>
+    </div>
+      <div class="navbar align-self-center d-flex">
+        <!--<div class="collapse navbar-collapse" id="MyNav">-->
+        <div class="d-lg-none flex-sm-fill mt-3 mb-4 col-7 col-sm-auto pr-3" style="">
+          <div class="input-group">
+            <input type="text" class="form-control" id="inputMobileSearch" placeholder="Search ...">
+            <div class="input-group-text">
+              <i class="fa fa-fw fa-search"></i>
+            </div>
+          </div>
+        </div>
+        <!--Login & Sign Up-->
+        <ul class="nav navbar-nav navbar-right">
+          <li><a data-toggle="modal" data-target="#Modal_Login" class="text-dark ml-2"><b> login </b>/ </a></li>
+          <li><a data-toggle="modal" data-target="#Modal_Signup" class="text-dark ml-2"><b> Join /</b></a></li>
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Head Navi end -->
+  <br>
+  <br>
+  <!-- 아이템 구입하기 시작-->
+  <section class="">
+    <div class="container pb-5">
+      <div class="row">
+        <div class="col-lg-5 mt-5">
+          <div class="card mb-3">
+            <img class="card-img img-fluid" src="./assets/img/top/lastofus.jpg" alt="Card image cap" id="product-detail">
+          </div>
+          <div class="row">
+            <!--작은 사진 3개 슬라이드 컨트롤 이전보기 시작(화살표 모양 말하는 것) -->
+            <div class="col-1 align-self-center" style="">
+              <a href="#multi-item-example" role="button" data-bs-slide="prev">
+                <i class="text-dark fas fa-chevron-left"></i>
+                <span class="sr-only">Previous</span>
+              </a>
+            </div>
+            <!--작은 사진 3개 슬라이드 컨트롤 이전보기 종료(화살표 모양 말하는 것)-->
+            <!--Start Carousel Wrapper-->
+            <div id="multi-item-example" class="col-10 carousel slide carousel-multi-item" data-bs-ride="carousel" style="">
+              <!--작은 사진 3개 슬라이드 전체 부분 시작-->
+              <div class="carousel-inner product-links-wap" role="listbox">
+                <!--첫번째 슬라이드 시작-->
+                <div class="carousel-item active">
+                  <div class="row">
+                    <div class="col-4">
+                      <a href="#">
+                        <img class="card-img img-fluid" src="./assets/img/lou/LOU1.jpg" alt="error">
+                      </a>
+                    </div>
+                    <div class="col-4">
+                      <a href="#">
+                        <img class="card-img img-fluid" src="./assets/img/lou/LOU2.jpg" alt="error">
+                      </a>
+                    </div>
+                    <div class="col-4">
+                      <a href="#">
+                        <img class="card-img img-fluid" src="./assets/img/lou/LOU3.jpg" alt="error">
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <!--1번째 슬라이드 종료-->
+                <!--2번째 슬라이드 시작-->
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="col-4">
+                      <a href="#">
+                        <img class="card-img img-fluid" src="./assets/img/lou/LOU4.jpg" alt="error">
+                      </a>
+                    </div>
+                    <div class="col-4">
+                      <a href="#">
+                        <img class="card-img img-fluid" src="./assets/img/lou/LOU5.jpg" alt="error">
+                      </a>
+                    </div>
+                    <div class="col-4">
+                      <a href="#">
+                        <img class="card-img img-fluid" src="./assets/img/lou/LOU6.jpg" alt="error">
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <!--2번째 슬라이드 종료-->
+                <!--3번째 슬라이드 시작-->
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="col-4">
+                      <a href="#">
+                        <img class="card-img img-fluid" src="./assets/img/lou/LOU7.jfif" alt="error">
+                      </a>
+                    </div>
+                    <div class="col-4">
+                      <a href="#">
+                        <img class="card-img img-fluid" src="./assets/img/lou/LOU8.jpg" alt="error">
+                      </a>
+                    </div>
+            
+                  </div>
+                </div>
+                <!--3번째 슬라이드 종료-->
+              </div>
+              <!--작은 사진 3개 슬라이드 전체 부분 종료-->
+            </div>
+            <!--End Carousel Wrapper-->
+            <!--작은 사진 3개 슬라이드 컨트롤 다음 시작 (화살표 모양 말하는 것)-->
+            <div class="col-1 align-self-center" style="">
+              <a href="#multi-item-example" role="button" data-bs-slide="next">
+                <i class="text-dark fas fa-chevron-right"></i>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+            <!--작은 사진 3개 슬라이드 컨트롤 다음 종료 (화살표 모양 말하는 것)-->
+          </div>
+        </div>
+        <!-- col end -->
+        <div class="col-lg-7 mt-5">
+          <div class="card">
+            <div class="card-body">
+              <h1 class="h2 logo ">The Last of Us</h1>
+              <p class="h3 py-2">$48.00</p>
+              <!--드롭다운 컬러 (컬러 선택하기) 작동안함-->
+              <ul class="list-inline">
+                <li class="list-inline-item">
+                  <h6>Condition:</h6>
+                </li>
+                <li class="list-inline-item">
+                  <div class="dropdown">
+                    <div class="col-md-3"><button class="btn btn-default dropdown-toggle shadow" type="button" data-toggle="dropdown" aria-expanded="false">New<span class="caret"></span></button></div>
+                    <ul class="dropdown-menu" style="">
+                      <li><a href="#">Choose Condition</a></li>
+                      <li class="divider"></li>
+                      <li><a href="#">New</a></li>
+                      <li><a href="#">Pre-Owned</a></li>
+                    
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+              
+            <!-- 간격벌리기용 시작-->
+            <br>
+            <br>
+            <!--간격벌리기용 종료-->
+            <!--  수량+ 구매+ 장바구니+관심상품 시작-->
+            <form action="" method="GET">
+              <input type="hidden" name="product-title" value="Activewear" style="">
+              <!-- start count-->
+              <div class="row">
+                <div class="col-auto col-md-4 pl-4" style="">
+                  <ul class="list-inline pr-1">
+                    <li class="list-inline-item text-right"><b>Count</b></li>
+                    <li class="list-inline-item"><span class="btn btn-secondary" id="btn-minus">-</span></li>
+                    <li class="list-inline-item"><span class="badge bg-secondary" id="var-value">1</span></li>
+                    <li class="list-inline-item"><span class="btn btn-secondary" id="btn-plus">+</span></li>
+                  </ul>
+                </div>
+              </div>
+              <!-- 수량버튼 종료-->
+              <!-- purchase+ bag+ focusview-->
+              <div class="row pb-3">
+                <div class="col-sm-3 d-grid">
+                </div>
+                <div class="col-sm-3 d-grid">
+                  <button type="submit" class="btn btn-lg btn-secondary shadow" name="submit" value="buy">Purchase</button>
+                </div>
+                <div class="col-sm-3 d-grid">
+                  <button type="submit" class="btn btn-lg text-dark btn-light shadow" name="submit" value="addtocard">Wish List</button>
+                </div>
+                <div class="d-grid col-sm-3">
+                  <button type="submit" class="btn btn-lg text-dark btn-light shadow-lg" name="submit" value="addtocard">Product of interest</button>
+                </div>
+              </div>
+            </form>
+            <!-- purchase+ bag+ Product of interest. end-->
+            <!--  count+purchase+ bag+ Product of interest. end-->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end purchase item  -->
+  <!-- interest produce list start-->
+  <!-- End Article ()-->
+  <!-- 스파이 스크롤1 시작-->
+  <section class="container pt-5">
+    <div class="row">
+      <div class="col-md-6 col-lg-3">
+        <a href="#Menu1" class="">
+          <div class="services-icon-wap shadow py-1">
+            <h2 class="h5 mt-4 text-center">Details</h2>
+          </div>
+        </a>
+      </div>
+     
+      <div class="col-md-6 col-lg-3">
+        <a href="#Menu3" class="">
+          <div class="services-icon-wap shadow py-1">
+            <h2 class="h5 mt-4 text-center">More Like This</h2>
+          </div>
+        </a>
+      </div>
+      <div class="col-md-6 col-lg-3">
+        <a href="#tempaltemo_footer" class="">
+          <div class="services-icon-wap shadow py-1">
+            <h2 class="h5 mt-4 text-center">Questions</h2>
+          </div>
+        </a>
+      </div>
+    </div>
+  
+  </section>
+  <!--스파이 스크롤1 종료-->
+  <!--상세정보1 시작-->
+  <section class="">
+    <div class="container" id="Menu1">
+      <div class="card rounded-0" style="width:100%;text-align:center;">
+        <a href="#" class="">
+          <div class="col-8 col-md-3 mb-4 h-75">
+            <img class="img-responsive" src="./assets/img/lou/LOU1.jpg" width="1024" height="768" alt="error">
+            <br>
+            <br>
+            <br>
+            <img class="img-responsive" src="./assets/img/lou/LOU2.jpg" width="1024" height="768" alt="error">
+            <br>
+            <br>
+            <br>
+            <img class="img-responsive" src="./assets/img/lou/LOU3.jpg" width="1024" height="768" alt="error">
+            <br>
+            <br>
+            <br>
+            <img class="img-responsive" src="./assets/img/lou/LOU4.jpg" width="1024" height="768" alt="error">
+            <br>
+            <br>
+            <br>
+            <img class="img-responsive" src="./assets/img/lou/LOU5.jpg" width="1024" height="768" alt="error">
+            <br>
+            <br>
+            <br>
+            <img class="img-responsive" src="./assets/img/lou/LOU8.jpg" width="1024" height="768" alt="error">
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+  <!--상세정보1 종료-->
+  <!--스파이스크롤2 시작-->
+  <section class="container pt-5">
+    <div class="row">
+      <div class="col-md-6 col-lg-3">
+        <a href="#Menu1" class="">
+          <div class="services-icon-wap shadow py-1">
+            <h2 class="h5 mt-4 text-center">Details</h2>
+          </div>
+        </a>
+      </div>
+     
+      <div class="col-md-6 col-lg-3">
+        <a href="#Menu3" class="">
+          <div class="services-icon-wap shadow py-1">
+            <h2 class="h5 mt-4 text-center">More like This</h2>
+          </div>
+        </a>
+      </div>
+      <div class="col-md-6 col-lg-3">
+        <a href="#tempaltemo_footer" class="">
+          <div class="services-icon-wap shadow py-1">
+            <h2 class="h5 mt-4 text-center">Questions</h2>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+  </section>
+  <!--스파이스크롤2 종료-->
+  
+  <!--관련상품3 시작-->
+  <section class="">
+    <div class="row">
+    <div class="container" id="Menu3">
+      <div class="card rounded-0" style="width:100%;text-align:center;">
+        <a href="#" class="">
+          <div class="row">
+          <div class="col-12 col-md-3 mb-4 h-75">
+          
+            <div class="card h-100">
+              <a href="shop-games.html">
+                <img src="./assets/img/top/farcry6.jpg" class="card-img-top" alt="...">
+              </a>
+              <div class="card-body">
+                <ul class="list-unstyled d-flex justify-content-between">
+                  <li>
+                  </li>
+                </ul>
+                <a href="shop-games.html" class="h3 border-bottom border-l logo text-decoration-none text-dark">Far Cry6</a>
+              <p class="card-text pt-3">$89.00</p>
+              <p class="text-dark">Nice Story Game</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-3 mb-4 h-75">
+            <div class="card h-100">
+              <a href="shop-games.html">
+                <img src="./assets/img/top/IttakesTwo.jpg" class="card-img-top" alt="...">
+              </a>
+              <div class="card-body">
+                <ul class="list-unstyled d-flex justify-content-between">
+                  <li>
+                  </li>
+                </ul>
+                <a href="shop-games.html" class="h3 border-bottom border-l logo text-decoration-none text-dark">IT Takes Two</a>
+                <p class="card-text pt-3">$68.00 </p>
+                <p class="text-dark">Best Dual Games</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-3 mb-4 h-75">
+            <div class="card h-100">
+              <a href="shop-games.html">
+                <img src="./assets/img/top/res2.jpg" class="card-img-top" alt="...">
+              </a>
+              <div class="card-body">
+                <ul class="list-unstyled d-flex justify-content-between">
+                  <li>
+                  </li>
+                </ul>
+                <a href="shop-games.html" class="h3 border-bottom border-l logo text-decoration-none text-dark">RE:2</a>
+                <p class="card-text pt-3">$60.00 </p>
+                <p class="text-dark">Best Zombie Game</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-3 mb-4 h-75">
+            <div class="card h-100">
+              <a href="shop-games.html">
+                <img src="./assets/img/top/spider Man.jpg" class="card-img-top" alt="...">
+              </a>
+              <div class="card-body">
+                <ul class="list-unstyled d-flex justify-content-between">
+                  <li>
+                  </li>
+                </ul>
+                <a href="shop-games.html" class="h3 border-bottom border-l logo text-decoration-none text-dark">Spiderman Moralas</a>
+                <p class="card-text pt-3">$58.00 </p>
+                <p class="text-dark">Good Action Games</p>
+              </div>
+            </div>
+        </a>
+      </div>
+    </div>
+    </div>
+  </section>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <!--관련상품3 종료-->
+  <!-- Start Footer  -->
+  <footer class="" id="tempaltemo_footer" style="	box-shadow: 0px 0px 2px  black;">
+    <div class="container">
+      <div class="row">
+        
+        <div class="pt-5 col-md-3">
+          <h2 class="h3 border-bottom pb-3 border-light text-dark">CS Center</h2>
+          <ul class="list-unstyled text-light footer-link-list">
+            <li>
+              <h3 class="text-decoration-none text-dark" href="#">800-123-4567</h3>
+            </li>
+            <li><a class="text-decoration-none text-muted" href="#">OPEN 09:00 - 17:00</a></li>
+            <li><a class="text-decoration-none text-muted" href="#">Lunch 12:00 - 13:00</a></li>
+            <li><a class="text-decoration-none text-muted" href="#">Sat, Sun, Holiday Close</a></li>
+          </ul>
+        </div>
+        <div class="pt-5 col-md-3">
+          <h2 class="h3 border-bottom pb-3 border-light text-dark">Company Info</h2>
+          <ul class="list-unstyled text-light footer-link-list">
+            <li class="text-dark">
+              <i class="fas fa-map-marker-alt fa-fw"></i> 36Madison Ave, Madison NJ 07940 </li>
+            <li>
+              <i class="fa fa-phone fa-fw"></i>
+              <a class="text-decoration-none text-dark" >800-123-4567</a>
+            </li>
+            <li>
+              <i class="fa fa-envelope fa-fw"></i>
+              <a class="text-decoration-none text-dark" >snah@drew.edu</a>
+            </li>
+          </ul>
+        </div>
+        <div class="pt-5 col-md-3">
+          <h2 class="h3 border-bottom pb-3 border-light text-dark">Return &amp; Exchange</h2>
+          <ul class="list-unstyled text-light footer-link-list">
+            <li>
+              <a class="text-decoration-none text-dark">RETURN ADDRESS: DREW UNIVERSITY</a>
+            </li>
+            <li><a class="text-decoration-none text-dark" >Return : CALL 800-123-4567</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="row text-light mb-4">
+        <div class="col-12 mb-3 col-md-12">
+          <div class="w-100 my-3 border-top border-light"></div>
+        </div>
+      </div>
+    </div>
+    <div class="w-100 bg-black">
+      <div class="container">
+        <div class="row pt-2">
+          <div class="col-12">
+            <p class="text-left text-light"> Copyright © 2021 SY GAMES | Designed by ETHAN NAH</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- End Footer  -->
+  <!-- 자바 스크립트 시작 -->
+  <script src="assets/js/jquery-1.11.0.min.js"></script>
+  <script src="assets/js/jquery-migrate-1.2.1.min.js"></script>
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/templatemo.js" style=""></script>
+  <script src="assets/js/custom.js"></script>
+  <!-- 자바 스크립트 종료-->
+  <!-- 슬라이더 스크립트 시작-->
+  <script src="assets/js/slick.min.js" style=""></script>
+  <script style="">
+    $('#carousel-related-product').slick({
+      infinite: true,
+      arrows: false,
+      slidesToShow: 4,
+      slidesToScroll: 3,
+      dots: true,
+      responsive: [{
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3
+        }
+      }, {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 3
+        }
+      }, {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 3
+        }
+      }]
+    });
+  </script>
+  <!-- 슬라이더 스크립트 종료 -->
+</body>
+
+</html>
