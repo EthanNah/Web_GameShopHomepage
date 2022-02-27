@@ -11,14 +11,14 @@ Game Selling WebSite.
 
 
 - - -
-*Game Page
-  *Show the Games 
+- Game Page
+  * Show the Games 
   
   ![Game Page](Image/Games.gif)
   
   - - -
-*Console Page
-  *Show the Consoles
+* Console Page
+  * Show the Consoles
   
   ![Console Page](Image/Console.gif)
   
