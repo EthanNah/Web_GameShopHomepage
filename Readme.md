@@ -3,9 +3,9 @@
 ## About This Project
 Game Selling WebSite.
 - - -
-*Index Page
- *Show the Best Selling Game 
- *Menu
+- Index Page
+ - Show the Best Selling Game 
+ - Menu
 
 ![Main Page](Image/Main.gif)
 
